@@ -38,7 +38,7 @@ for num in range(lower, upper+1):
 # print prime number up to 100
 num = 100
 for num in range(2, num):
-    for i in range(2, num):
+    for i in range(2, num+1):
         if num % i == 0:
             break  # stop the loop if it meets the condition
     else:
